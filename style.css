@@ -1,0 +1,131 @@
+body {
+  font-family: Roboto;
+  background: -webkit-linear-gradient(to left, #0f9dc7, #0df1f1);
+  background: linear-gradient(to left, #607c85, #dce4e4);
+}
+
+#container {
+  height: auto;
+  width: 360px;
+  margin: 3% auto;
+  padding: 0 0 2% 0;
+  background: #f7f7f7;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+}
+
+#header {
+  background: #1b251e;
+  margin: 0;
+  padding: 0px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+}
+
+h1 {
+  color: white;
+  text-transform: uppercase;
+  padding: 10px 25px 0;
+  font-size: 21px;
+  font-weight: normal;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+img {
+  height: 15%;
+  display: block;
+  margin: 0 auto;
+}
+
+p {
+  padding-left: 20px;
+}
+
+form input[type="text"] {
+  width: 90px;
+}
+
+input {
+  padding-left: 20px;
+}
+
+#value {
+  font-size: 14px;
+  color: rgb(98, 0, 255);
+  background-color: #f7f7f7;
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+}
+
+#total-conta:focus {
+  background: #fff;
+  border: 3px solid #2980b9;
+  outline: none;
+}
+
+#service-charge {
+  padding: 8px 8px 10px 15px;
+  margin-left: 20px;
+  font-size: 15px;
+}
+
+#number-people {
+  width: 60%;
+  padding: 5px 5px 8px 8px;
+  margin-left: 20px;
+  color: rgb(98, 0, 255);
+  background-color: #f7f7f7;
+  font-size: 14px;
+}
+
+button {
+  text-transform: uppercase;
+  font-weight: bold;
+  display: block;
+  margin: 30px auto;
+  background: #a0acaf;
+  border-radius: 5px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: rgb(26, 24, 24);
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2d2c31;
+  border-bottom-color: #111;
+  color: #f7f7f7;
+}
+
+button:active {
+  position: relative;
+  top: 1px;
+}
+
+#calculated-value {
+  font-size: 30px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#calculated-value:before {
+  content: "Valor por pessoa:";
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+}
+
+#calculated-value sup {
+  font-size: 20px;
+  top: -18px;
+}
+
+#calculated-value small {
+  font-size: 20px;
+  font-weight: bold;
+  display: block;
+}
